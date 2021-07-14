@@ -6,7 +6,6 @@ class Config:
     # Activate if use Database
     # SECRET_KEY = os.getenv('SECRET_KEY', 'key_here')
     DEBUG = False
-    SERVER_NAME = '0.0.0.0:6996'
 
 class DevConfig(Config):
     DEBUG = True
