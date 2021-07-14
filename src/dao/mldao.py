@@ -7,7 +7,7 @@ mldata = model.ml
 
 class MLDao(object):
     def __init__(self):
-        self.model = joblib.load('src\dao\model_dump.pkl')
+        self.model = joblib.load('src/dao/model_dump.pkl')
 
     def predict(self, data):
         mldata = data
